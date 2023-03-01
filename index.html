@@ -5,9 +5,20 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<div id="game-description">
+		<h1>Fruit Catcher Game</h1>
+		Auf dem Bildschirm werden verschiedene Früchte in zufälliger Größe und Farbe erscheinen.
+Der Spieler muss auf die Früchte klicken, bevor sie den unteren Rand des Bildschirms erreichen.
+Jede erfolgreiche Klick auf eine Frucht wird dem Punktestand des Spielers hinzugefügt.
+Wenn eine Frucht den unteren Rand des Bildschirms erreicht, ohne dass der Spieler sie geklickt hat, ist das Spiel vorbei.
+Der Spieler kann das Spiel neu starten, indem er auf den "Neu starten"-Button klickt.
+	  </div>
+	
 	<canvas id="game-canvas"></canvas>
 	<div id="score">0</div>
 	<div id="game-over-message"></div>
+	<button id="restart-button" style="position: absolute; left: 50px; top: 200px; display: none; height: 100px; width: 100px">Restart</button>
+
 	<script src="game.js"></script>
 </body>
 </html>

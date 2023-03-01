@@ -1,3 +1,14 @@
+/*make a background image*/
+/*make a background image for the game area*/
+
+
+
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -11,7 +22,10 @@ canvas {
 	display: block;
 	margin: auto;
 	border: 1px solid rgba(245, 243, 243, 0.55);
-	background-color:rgba(210, 14, 14, 0.55)
+	background-color:rgba(210, 14, 14, 0.55);
+	background-image: url("garden.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #score {

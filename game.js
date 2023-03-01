@@ -80,8 +80,8 @@ function update() {
 }
 
 // start game
-canvas.width = 600;
-canvas.height = 800;
+canvas.width = 1200;
+canvas.height = 600;
 update();
 
 // restart game
@@ -89,7 +89,7 @@ document.getElementById("restart-button").addEventListener("click", function() {
   fruits = [];
   score = 0;
   gameOver = false;
-  fruitSpeed = 2;
+  fruitSpeed = 1;
   document.getElementById("game-over-message").style.display = "none";
   document.getElementById("restart-button").style.display = "none";
   update();
